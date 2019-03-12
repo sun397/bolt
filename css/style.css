@@ -21,7 +21,6 @@ a {
 .header-inner {
   padding-top: 15px;
   padding-bottom: 15px;
-  overflow: hidden;
 }
 
 .bolt {
@@ -346,8 +345,12 @@ a {
     margin: 0 auto;
   }
 
-  .article-img a:nth-child(4n+3) {
+  .article-img a:nth-child(3n+3) {
     margin-bottom: 80px;
+  }
+
+  .article-img a:last-child {
+    margin-bottom: 0;
   }
 
   .article-bottom {
@@ -499,8 +502,12 @@ a {
     margin: 0 auto;
   }
 
-  .article-img a:nth-child(4n+3) {
+  .article-img a:nth-child(3n+3) {
     margin-bottom: 80px;
+  }
+
+  .article-img a:last-child {
+    margin-bottom: 0;
   }
 
   .article-bottom {
