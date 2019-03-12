@@ -84,7 +84,6 @@ a {
 
 .section-top-inner {
   padding-top: 50px;
-  overflow: hidden;
 }
 
 .section-top-img {
@@ -275,4 +274,16 @@ a {
   padding-top: 20px;
   padding-bottom: 25px;
   text-align: right;
+}
+
+/* tab */
+
+@media screen and (min-width:768px) and (max-width:1199px) {
+
+}
+
+/* sp */
+
+@media screen and (max-width:767px) {
+
 }
