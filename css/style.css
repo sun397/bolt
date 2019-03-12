@@ -1,3 +1,7 @@
+body {
+  font-family: Raleway;
+}
+
 .inner {
   width: 1100px;
   text-align: center;
@@ -44,7 +48,7 @@
 
 .theme {
   background-color: #f2f2f2;
-  margin-top: 70px;
+  margin-top: 88px;
 }
 
 .theme-inner {
@@ -78,7 +82,11 @@
 
 .section-top-img {
   float: left;
-  margin-right: 50px;
+  margin-left: 100px;
+}
+
+.section-top-sentence {
+  margin-left: 400px;
 }
 
 .section-top-title {
@@ -86,9 +94,10 @@
 }
 
 .section-top-text {
+  font-family: Lato;
   font-size: 20px;
   margin-top: 35px;
-  width: 1050px;
+  width: 670px;
   line-height: 27px;
 }
 
@@ -143,7 +152,7 @@
 
 .article-text {
   color: #4e4e4e;
-  width: 530px;
+  width: 500px;
   float: left;
   margin-right: 90px;
   line-height: 23px;
@@ -198,6 +207,7 @@
 
 .section-bottom-main span {
   font-size: 16px;
+  font-family: Lato;
 }
 
 .clearfix::after {
@@ -239,6 +249,7 @@
   background-color: #74cfae;
   color: #fff;
   overflow: hidden;
+  font-family: Lato;
 }
 
 .footer-inner {
