@@ -1,0 +1,60 @@
+.inner {
+  width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header {
+  background-color: #fff;
+}
+.header-content {
+  padding: 15px 0;
+}
+
+.theme {
+  background-color: 	#f2f2f2;
+}
+.theme-box {
+  padding: 250px;
+}
+.theme-title {
+  font-size: 90px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #74cfae;
+}
+.theme-text {
+  font-size: 30px;
+  color: #c0c0c0;
+}
+
+.phone {
+  background-color: #74cfae;
+}
+.phone-box {
+  padding-top: 50px;
+}
+.phone-img {
+  float: left;
+  margin-right: 200px;
+}
+.phone-content {
+  color: #fff;
+}
+.phone-title {
+  font-size: 24px;
+  margin-bottom: 35px;
+}
+.phone-text {
+  font-size: 20px;
+  word-break: break-all;
+}
+
+.work {
+  background-color: #f2f2f2;
+}
